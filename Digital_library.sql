@@ -46,6 +46,7 @@ return_date date,
 foreign key(student_id) references Students(student_id),
 foreign key(book_id)references Books(book_id)
 );
+
 insert into IssuedBooks (book_id, student_id, issue_date, return_date) values
 (1,7,'2026-03-20',NULL);  
 insert into IssuedBooks (book_id, student_id, issue_date, return_date) values
